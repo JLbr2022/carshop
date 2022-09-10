@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function NavbarMain() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="md">
         <Container>
           <Navbar.Brand as={Link} to="/">
             CarShop G5
