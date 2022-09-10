@@ -24,7 +24,6 @@ function App() {
           <Route path="*" element={<Navigate replace to="/" />}></Route>
         </Routes>
       </BrowserRouter>
-      <h1>HOME</h1>
     </div>
   );
 }

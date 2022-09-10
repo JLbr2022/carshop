@@ -6,7 +6,9 @@
       },
       "model": "Focus",
       "brand": "Ford",
-      "year": "2007"
+      "year": "2007",
+      "price": 20000,
+      "imgage":""
     },
     {
       "_id": {
@@ -14,19 +16,25 @@
       },
       "model": "Onix",
       "brand": "Chevrolet",
-      "year": "2010"
+      "year": "2010",
+      "price": 30000,
+      "imgage":""
     },
     {
       "id": "1",
       "model": "Renegade",
       "brand": "Jeep",
-      "year": "2017"
+      "year": "2017",
+      "price": 100000,
+      "imgage":""
     },
     {
       "id": "2",
       "model": "Renegade",
       "brand": "Jeep",
-      "year": "2019"
+      "year": "2019",
+      "price": 150000,
+      "imgage":""
     }
   ]
 }
