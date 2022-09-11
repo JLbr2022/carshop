@@ -1,5 +1,4 @@
 import React from "react";
-import NavbarMain from "../../Layouts/Navbar/Navbar";
 
 function Crud() {
   return (

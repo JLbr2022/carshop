@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 export default function NavbarMain() {
   return (
@@ -10,7 +11,6 @@ export default function NavbarMain() {
             className="avatar"
             src={require("../../images/logo.jpg")}
             alt="logo"
-            width="100px"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

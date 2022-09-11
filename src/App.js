@@ -1,9 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
-import { Container, Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
-
 import NavbarMain from "./FrontEnd/Layouts/Navbar/Navbar";
 import Home from "./FrontEnd/components/Home/Home";
 import SearchEngine from "./FrontEnd/components/SearchEngine/SearchEngine";
