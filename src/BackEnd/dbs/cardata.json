@@ -8,7 +8,7 @@
       "brand": "Ford",
       "year": "2007",
       "price": 20000,
-      "image":"http://localhost:4000/cardata/cars/Ford-Focus-2007.jpg"
+      "image":"https://github.com/JLbr2022/carshop/blob/SearchEngine-Functionality/src/FrontEnd/images/cars/Ford-Focus-2007.jpg?raw=true"
     },
     {
       "_id": {
@@ -18,7 +18,7 @@
       "brand": "Chevrolet",
       "year": "2010",
       "price": 30000,
-      "image":""
+      "image":"https://github.com/JLbr2022/carshop/blob/SearchEngine-Functionality/src/FrontEnd/images/cars/Chevrolet-Onix-2015.jpg?raw=true"
     },
     {
       "id": "1",
@@ -26,7 +26,7 @@
       "brand": "Jeep",
       "year": "2017",
       "price": 100000,
-      "image":""
+      "image":"https://github.com/JLbr2022/carshop/blob/SearchEngine-Functionality/src/FrontEnd/images/cars/Jeep-Renegade-2017.jpg?raw=true"
     },
     {
       "id": "2",
@@ -34,7 +34,7 @@
       "brand": "Jeep",
       "year": "2019",
       "price": 150000,
-      "image":""
+      "image":"https://github.com/JLbr2022/carshop/blob/SearchEngine-Functionality/src/FrontEnd/images/cars/Jeep-Renegade-2019.jpg?raw=true"
     }
   ]
 }
