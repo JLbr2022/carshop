@@ -1,4 +1,4 @@
-.cardCar {
+/* .cardCar {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 1rem;
@@ -10,6 +10,12 @@
   background-color: blue;
   width: 15em;
   height: 20em;
+} */
+
+.imageCard {
+  /* background-color: red; */
+  /* width: 12em; */
+  height: 12em;
 }
 
 /* .container {

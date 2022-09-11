@@ -1,9 +1,10 @@
 import React from "react";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className="Home">
+      <img src={require("../../images/logo.jpg")} alt="logo" width="50%" />
     </div>
   );
 }

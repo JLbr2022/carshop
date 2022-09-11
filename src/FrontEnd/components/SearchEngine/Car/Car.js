@@ -8,7 +8,8 @@ export default function Car({ car }) {
       <div className="card p-0 overflow-hidden h-100 shadow">
         <img
           src={car.image}
-          className="card-img-top img-fluid"
+          className="imageCard"
+          // className="imageCard card-img-top img-fluid"
           alt="car image"
         />
         <div className="card-body">
