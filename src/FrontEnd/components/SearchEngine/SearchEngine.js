@@ -50,25 +50,8 @@ export default function SearchEngine() {
 
           {/* =========== MAP =========== */}
 
-          {dataSearch.map((car, index) => {
-            return (
-              //<Car car={car} key={car.id} />;
-              <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4">
-                <div className="card p-0 overflow-hidden h-100 shadow">
-                  <img
-                    src={car.image}
-                    className="card-img-top img-fluid"
-                    alt="..."
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title text-center">{car.model}</h5>
-                    <p className="card-text">Marca: {car.brand}</p>
-                    <p className="card-text">Año: {car.year}</p>
-                    <p className="card-text">Precio: {car.price}</p>
-                  </div>
-                </div>
-              </div>
-            );
+          {dataSearch.map((car) => {
+            return <Car car={car} />;
           })}
         </div>
       </section>
