@@ -8,7 +8,7 @@
       "brand": "Ford",
       "year": "2007",
       "price": 20000,
-      "imgage":""
+      "image":"http://localhost:4000/cardata/cars/Ford-Focus-2007.jpg"
     },
     {
       "_id": {
@@ -18,7 +18,7 @@
       "brand": "Chevrolet",
       "year": "2010",
       "price": 30000,
-      "imgage":""
+      "image":""
     },
     {
       "id": "1",
@@ -26,7 +26,7 @@
       "brand": "Jeep",
       "year": "2017",
       "price": 100000,
-      "imgage":""
+      "image":""
     },
     {
       "id": "2",
@@ -34,7 +34,7 @@
       "brand": "Jeep",
       "year": "2019",
       "price": 150000,
-      "imgage":""
+      "image":""
     }
   ]
 }
