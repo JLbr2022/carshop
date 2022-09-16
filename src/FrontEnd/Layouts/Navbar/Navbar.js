@@ -17,11 +17,13 @@ export default function NavbarMain(navPosition) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/SearchEngine">
-              Buscar
+              Pesquisar
             </Nav.Link>
+
             <Nav.Link as={Link} to="/Contact">
-              Contacto
+              Contato
             </Nav.Link>
+
             <Nav.Link as={Link} to="/Crud">
               Admin
             </Nav.Link>
