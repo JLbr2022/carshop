@@ -13,7 +13,7 @@ export default function Car({ car, index }) {
   }
 
   return (
-    <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" key={index}>
+    <div className="Car col-11 col-md-6 col-lg-3 mx-0 mb-4" key={index}>
       <div className="card p-0 overflow-hidden h-100 shadow">
         <img src={car.image} className="imageCard" alt="Imagen do Veículo" />
         <div className="card-body">
