@@ -1,0 +1,25 @@
+.imageCard {
+  height: 12em;
+}
+
+.buyButton {
+  margin-top: 1em;
+  background-color: #0d67ee;
+  border: 1px solid #f5f5f5;
+  border-radius: 0.5em;
+  color: #eeeeee;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  width: 100%;
+}
+
+.buyButton:hover {
+  background-color: #01bb1a;
+  border-radius: 0.5em;
+  color: #eeeeee;
+  font-size: 1.5em;
+  font-weight: 600;
+  width: 100%;
+  transition: 0.4s;
+}

@@ -1,0 +1,10 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+}
+
+.crl {
+  padding-bottom: 5em;
+}
