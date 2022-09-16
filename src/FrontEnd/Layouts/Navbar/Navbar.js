@@ -2,10 +2,10 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-export default function NavbarMain() {
+export default function NavbarMain(navPosition) {
   return (
-    <Navbar bg="dark" variant="dark" expand="md">
-      <Container>
+    <Navbar classNames="Navbar" bg="dark" variant="dark" expand="lg">
+      <Container className="Container">
         <Navbar.Brand as={Link} to="/">
           <img
             className="avatar"

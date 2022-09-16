@@ -1,27 +1,27 @@
 import React, { useEffect, useState } from "react";
-// import NavbarMain from "../../Layouts/Navbar/Navbar";
-// import { Container, Form, Button } from "react-bootstrap";
 import Car from "./Car/Car";
 
 export default function SearchEngine() {
-  const [popular, setPopular] = useState([]);
+  const [stock, setStock] = useState([]);
   const [filter, setFilter] = useState("");
+  const URL = "http://localhost:4000/cardata";
 
-  useEffect(() => {
-    fetchPopular();
-  }, []);
-
-  const fetchPopular = async () => {
-    fetch("http://localhost:4000/cardata")
+  const fetchStock = async () => {
+    fetch(URL)
       .then((data) => data.json())
-      .then((cars) => setPopular(cars));
+      .then((cars) => setStock(cars));
   };
 
+  useEffect(() => {
+    fetchStock();
+  }, []);
+
+  // =========== DATA FILTER ===========
   const searchText = (e) => {
     setFilter(e.target.value);
   };
 
-  let dataSearch = popular.filter((item) => {
+  let dataSearch = stock.filter((item) => {
     return Object.keys(item).some((key) =>
       item[key]
         .toString()
@@ -32,14 +32,13 @@ export default function SearchEngine() {
 
   return (
     <div className="SearchEngine">
-      {/* <NavbarMain /> */}
-
       <section className="py-4 container">
         <div className="row justify-content-center">
           <div className="col-12 md-5">
             <div className="mb-3 col-4 mx-auto text-center">
-              <label className="form-label h4">Buscar</label>
+              <label className="form-label h4">Pesquisar</label>
               <input
+                placeholder="digite marca, modelo, ano, preço..."
                 type="text"
                 className="form-control"
                 value={filter}
@@ -50,8 +49,8 @@ export default function SearchEngine() {
 
           {/* =========== MAP =========== */}
 
-          {dataSearch.map((car) => {
-            return <Car car={car} />;
+          {dataSearch.map((car, index) => {
+            return <Car car={car} key={index} />;
           })}
         </div>
       </section>
