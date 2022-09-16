@@ -8,7 +8,7 @@ import { Carousel } from "react-bootstrap";
 
 function Home() {
   return (
-    <div className="gradient-text crl Container mb-5">
+    <div className="crl Container mb-5">
       {/* <img
         // className="img-fluid"
         src={require("../../images/logo.jpg")}
@@ -19,7 +19,7 @@ function Home() {
       <Carousel slide={false} className="Container">
         <Carousel.Item>
           <img
-            src={require("../../images/cars/Chevrolet-Onix-2015.jpg")}
+            src={require("../../images/cars/Chevrolet-Onix-Sedan-2020-2.jpg")}
             alt="First slide"
             width="100%"
             height="100%"
@@ -31,21 +31,33 @@ function Home() {
 
         <Carousel.Item className="">
           <img
-            src={require("../../images/cars/Jeep-Renegade-2019.jpg")}
+            src={require("../../images/cars/ford-focus-se-white-2017-2.jpg")}
             alt="Jeep Renegade 2019"
             width="100%"
             height="100%"
           />
-
           <Carousel.Caption>
-            <h3>Jeep Renegade 2019</h3>
+            <h3>Ford Focus 2017</h3>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item className="">
           <img
-            src={require("../../images/cars/Jeep-Renegade-2022.jpg")}
+            src={require("../../images/cars/Jeep-Renegade-2022-2.jpg")}
             alt="Jeep Renegade 2022"
+            width="100%"
+            height="100%"
+          />
+
+          <Carousel.Caption>
+            <h3>Jeep Renegade 2022</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+
+        <Carousel.Item className="">
+          <img
+            src={require("../../images/cars/Hyundai-i30-2011-2.jpg")}
+            alt="Hyundai i30 Hatchback 2011"
             width="100%"
             height="100%"
           />

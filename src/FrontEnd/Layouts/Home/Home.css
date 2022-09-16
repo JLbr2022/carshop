@@ -14,3 +14,8 @@
   /* color: linear-gradient(90deg, rgba(146, 95, 2, 1), rgba(163, 126, 15, 0.82), #fde879) */
   color: black;
 }
+
+.crl img {
+  padding-bottom: 8em;
+
+}
