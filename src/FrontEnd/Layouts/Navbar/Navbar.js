@@ -2,7 +2,9 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-export default function NavbarMain(navPosition) {
+// import { motion } from "framer-motion";
+
+export default function NavbarMain() {
   return (
     <Navbar
       classNames="Navbar Navbar-css"
@@ -37,5 +39,6 @@ export default function NavbarMain(navPosition) {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    // </motion.div>
   );
 }
