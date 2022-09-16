@@ -1,5 +1,5 @@
 import "./App.css";
-// import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
 import SearchEngine from "./FrontEnd/components/SearchEngine/SearchEngine";

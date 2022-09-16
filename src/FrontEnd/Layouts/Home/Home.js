@@ -7,7 +7,8 @@ import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
 
-function Home() {
+function Home(car) {
+  console.log(car);
   return (
     <div className="crl Container mb-5">
       {/* <img
@@ -27,8 +28,8 @@ function Home() {
             height="600rem"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Chevrolet Onix 2015</h3>
+            {/* <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -36,14 +37,14 @@ function Home() {
           <img
             // className="d-block h-100 w-100"
             src={require("../../images/cars/Jeep-Renegade-2019.jpg")}
-            alt="Second slide"
+            alt="Jeep Renegade 2019"
             width="800em"
             height="600em"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Jeep Renegade 2019</h3>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> */}
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -51,16 +52,16 @@ function Home() {
           <img
             // className="d-block h-100 w-100"
             src={require("../../images/cars/Jeep-Renegade-2022.jpg")}
-            alt="Third slide"
+            alt="Jeep Renegade 2022"
             width="800em"
             height="600em"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
+            <h3>Jeep Renegade 2022</h3>
+            {/* <p>
               Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            </p> */}
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
