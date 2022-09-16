@@ -4,7 +4,13 @@ import "./Navbar.css";
 
 export default function NavbarMain(navPosition) {
   return (
-    <Navbar classNames="Navbar" bg="dark" variant="dark" expand="lg">
+    <Navbar
+      classNames="Navbar Navbar-css"
+      fixed="top"
+      bg="dark"
+      variant="dark"
+      expand="lg"
+    >
       <Container className="Container">
         <Navbar.Brand as={Link} to="/">
           <img
