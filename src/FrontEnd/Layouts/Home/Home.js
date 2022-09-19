@@ -22,7 +22,7 @@ function Home() {
         width="30%"
         height="30%"
       /> */}
-      <Carousel slide={false} className="Container">
+      <Carousel slide={true} className="Container">
         <Carousel.Item>
           <img
             src={require("../../images/cars/Chevrolet-Onix-Sedan-2020-2.jpg")}
