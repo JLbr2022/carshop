@@ -17,15 +17,15 @@ instalação e execução
 4. Adicionalmente instale as siguientes dependências:
 
       npm:
-      react-router-dom: para as routas no react
-      mdb-react-ui-kit:botões
-      framer-motion: movimento entre as páginas
-      react-icons: para os ícones
-      axios: HTTP baseado em Promises para fazer requisições
-      nodemon: reiniciando automaticamente o servidor 
-      express: fornece métodos para especificar qual função é chamada quando chega requisição HTTP
-      mongoose:  Modelagem de Dados de Objeto
-      cors: permite relaxar a segurança aplicada a uma API
+      react-router-dom: para as routas no react;
+      mdb-react-ui-kit:botões;
+      framer-motion: movimento entre as páginas;
+      react-icons: para os ícones;
+      axios: HTTP baseado em Promises para fazer requisições;
+      nodemon: reiniciando automaticamente o servidor;
+      express: fornece métodos para especificar qual função é chamada quando chega requisição HTTP;
+      mongoose:  Modelagem de Dados de Objeto;
+      cors: permite relaxar a segurança aplicada a uma API;
 
 5. Para iniciar o projeto no modo FrontEnd abra http://localhost:3000 para ver o projeto rodando em seu navegador.
 
