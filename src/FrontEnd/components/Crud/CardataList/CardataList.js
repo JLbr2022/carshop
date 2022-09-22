@@ -53,7 +53,7 @@ function CardataList() {
         })
     }
 
-    const saveEdit = () => {
+    const saveEdit = () => {       
         axios.put(`/${edit._id}`, edit)
         .then(res => console.log(res))
         .catch(err => console.log(err));
@@ -150,7 +150,7 @@ function CardataList() {
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="outline-success" onClick={saveEdit}>
-                            Editar
+                            Salvar
                         </Button>
                         <Button variant="outline-secondary" onClick={handleClose}>
                             Cancel

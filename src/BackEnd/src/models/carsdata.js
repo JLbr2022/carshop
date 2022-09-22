@@ -4,7 +4,8 @@ const carsdataSchema = new mongoose.Schema({
     model: String,        
     brand: String,
     year: Number,  
-    price: Number   
+    price: Number,
+    image: String   
 })
 
 module.exports = mongoose.model('cardata', carsdataSchema)

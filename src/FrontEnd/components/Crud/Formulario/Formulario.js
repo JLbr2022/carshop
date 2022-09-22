@@ -12,7 +12,8 @@ function Formulario() {
         model:'',
         brand:'',
         year:'',
-        price:''
+        price:'',
+        image:"https://github.com/JLbr2022/carshop/blob/master/src/FrontEnd/images/logo.jpg?raw=true",
     }); 
     
     // Criando um novo registro
@@ -24,7 +25,8 @@ function Formulario() {
             model: create.model,
             brand: create.brand,
             year: create.year,
-            price: create.price
+            price: create.price,
+            image: create.image,
         }
         axios.post('http://localhost:4000/create', newCardata); 
         navigate('/Crud/cardata');  

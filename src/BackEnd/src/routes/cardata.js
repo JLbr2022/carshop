@@ -10,12 +10,14 @@ router.route('/create'). post(async (req, res) => {
     const brand = req.body.brand;
     const year = req.body.year;
     const price = req.body.price;
+    const image = req.body.image;
     
     const newCardata = new Cardata({
         model,
         brand,
         year,
         price,
+        image,
     })
 
     await newCardata.save();
