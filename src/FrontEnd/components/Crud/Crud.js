@@ -1,10 +1,18 @@
 import React from "react";
+import "./Crud.css";
+
+import { motion } from "framer-motion";
 
 function Crud() {
   return (
-    <div>
+    <motion.div
+      className="Crud"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+    >
       <h1>Crud</h1>
-    </div>
+    </motion.div>
   );
 }
 

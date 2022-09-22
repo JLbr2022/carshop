@@ -1,13 +1,14 @@
 import "./App.css";
-import "mdb-react-ui-kit/dist/css/mdb.min.css";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import SearchEngine from "./FrontEnd/components/SearchEngine/SearchEngine";
-import Contact from "./FrontEnd/components/Contact/Contact";
-import Crud from "./FrontEnd/components/Crud/Crud";
+// import SearchEngine from "./FrontEnd/components/SearchEngine/SearchEngine";
+// import Contact from "./FrontEnd/components/Contact/Contact";
+// import Crud from "./FrontEnd/components/Crud/Crud";
+// import Main from "./FrontEnd/Layouts/Main/Main";
 import Footer from "./FrontEnd/Layouts/Footer/Footer";
 import Header from "./FrontEnd/Layouts/Header/Header";
-import Main from "./FrontEnd/Layouts/Main/Main";
+
+import AnimationRoutes from "./FrontEnd/components/AnimationRoutes/AnimationRoutes";
 
 function App() {
   return (
@@ -18,14 +19,7 @@ function App() {
         </header>
 
         <main>
-          <Routes>
-            <Route path="/" element={<Main />}></Route>
-            <Route path="SearchEngine" element={<SearchEngine />}></Route>
-            <Route path="Contact" element={<Contact />}></Route>
-            <Route path="Crud" element={<Crud />}></Route>
-
-            <Route path="*" element={<Navigate replace to="/" />}></Route>
-          </Routes>
+          <AnimationRoutes />
         </main>
 
         <footer>

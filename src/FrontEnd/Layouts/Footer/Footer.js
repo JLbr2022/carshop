@@ -2,141 +2,134 @@ import React from "react";
 import {
   MDBFooter,
   MDBContainer,
-  MDBRow,
-  MDBCol,
   MDBIcon,
+  MDBInput,
+  MDBCol,
+  MDBRow,
+  MDBBtn,
 } from "mdb-react-ui-kit";
+import NavbarMain from "../../Layouts/Navbar/Navbar";
 
 export default function Footer() {
   return (
-    <MDBFooter bgColor="light" className="text-center text-lg-start text-muted">
-      <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <div className="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
+    <MDBFooter className="text-center" color="white" bgColor="dark">
+      <MDBContainer className="p-4">
+        <section className="mb-4"></section>
 
-        <div>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="facebook-f" />
-          </a>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="twitter" />
-          </a>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="google" />
-          </a>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="instagram" />
-          </a>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="linkedin" />
-          </a>
-          {/* eslint-disable-next-line */}
-          <a href="#" className="me-4 text-reset">
-            <MDBIcon fab icon="github" />
-          </a>
-        </div>
-      </section>
+        <section className="mb-4">
+          <p></p>
+        </section>
 
-      <section className="">
-        <MDBContainer className="text-center text-md-start mt-5">
-          <MDBRow className="mt-3">
-            <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                <MDBIcon icon="gem" className="me-3" />
-                G5 Car Shop
-              </h6>
-              <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
-              </p>
+        <section className="">
+          <MDBRow>
+            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase"> CANAIS DE CONTATOS </h5>
+
+              <ul className="list-unstyled mb-0">
+                <li>
+                  <a href="#!" className="text-white"></a>
+                </li>
+                <a
+                  href="https://instagram.com/dilukiladiego"
+                  className="text-white"
+                  target="_blank"
+                >
+                  <img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the badge&logo=instagram&logoColor=white" />
+                </a>
+
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/antónio-kalenda-dilukila-1b7a84165"
+                    className="text-white"
+                    target="_blank"
+                  >
+                    <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://whatsapp.com/dl/"
+                    className="text-white"
+                    target="_blank"
+                  >
+                    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#!" className="text-white"></a>
+                </li>
+              </ul>
             </MDBCol>
 
-            <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Lenguajes</h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  HTML / CSS / Boostrap
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  React
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Node.JS / Espress
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  MongoDB
-                </a>
-              </p>
+            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase"></h5>
+
+              <h6 className="text-uppercase">ENDEREÇO</h6>
+              <ul className="list-unstyled mb-0">
+                <li>
+                  Rua João Negrão -849/850 CENTRO, CURITIBA-PR CEP: 80010200
+                </li>
+                <li></li>
+              </ul>
             </MDBCol>
 
-            <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">
-                Enlaces de Interés
-              </h6>
-              <p>
-                <a href="#!" className="text-reset">
-                  Precios
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Configuración
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Ordenes
-                </a>
-              </p>
-              <p>
-                <a href="#!" className="text-reset">
-                  Ayuda
-                </a>
-              </p>
+            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase"></h5>
+
+              <ul className="list-unstyled mb-0">
+                <li>
+                  <a
+                    href="http://localhost:3000/SearchEngine"
+                    className="text-white"
+                    target=""
+                  >
+                    PESQUISA
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="http://localhost:3002/Contact"
+                    className="text-white"
+                    target=""
+                  >
+                    CONTATO
+                  </a>
+                </li>
+                <li></li>
+              </ul>
             </MDBCol>
 
-            <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
-              <h6 className="text-uppercase fw-bold mb-4">Contacto</h6>
-              <p>
-                <MDBIcon icon="home" className="me-2" />
-                Rúa Toti 2022, #16, Sao Paulo, SP, Brasil
-              </p>
-              <p>
-                <MDBIcon icon="envelope" className="me-3" />
-                g5carchop@g5cs.com.br
-              </p>
-              <p>
-                <MDBIcon icon="phone" className="me-3" /> +55 11 99999-9999
-              </p>
-              <p>
-                <MDBIcon icon="print" className="me-3" /> +55 12 88888-8888
-              </p>
+            <MDBCol lg="3" md="6" className="mb-4 mb-md-0">
+              <h5 className="text-uppercase"></h5>
+
+              <ul className="list-unstyled mb-0">
+                <a
+                  href="http://localhost:3000/static/media/logo.ab3f88e98264385db3ab.jpg"
+                  className="text-white"
+                  target="_blank"
+                >
+                  <a
+                    href="http://localhost:3000/"
+                    className="text-white"
+                    target=""
+                  >
+                    VOLTAR PARA PÁGINA INICIAL
+                  </a>
+                </a>
+              </ul>
             </MDBCol>
           </MDBRow>
-        </MDBContainer>
-      </section>
+        </section>
+      </MDBContainer>
 
       <div
-        className="text-center p-4"
-        style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+        className="text-center p-3"
+        style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © 2022 Copyright :
-        <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-          Toti - Grupo 5, 2022
-        </a>
+        CarShop©2022-Muita precaução ao volante
+        <a className="text-white" href="https://mdbootstrap.com/"></a>
       </div>
     </MDBFooter>
   );
