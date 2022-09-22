@@ -5,18 +5,24 @@ import React from "react";
 import "./Home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "react-bootstrap";
+import { motion } from "framer-motion"; // "framer-motion/dist/framer-motion"
 
 function Home() {
   return (
-    <div className="crl Container mb-5">
+    <motion.div
+      className="crl"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+    >
       {/* <img
-        // className="img-fluid"
+        className="img-fluid"
         src={require("../../images/logo.jpg")}
         alt="logo"
         width="30%"
         height="30%"
       /> */}
-      <Carousel slide={false} className="Container">
+      <Carousel slide={true} className="Container">
         <Carousel.Item>
           <img
             src={require("../../images/cars/Chevrolet-Onix-Sedan-2020-2.jpg")}
@@ -67,7 +73,7 @@ function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </motion.div>
   );
 }
 

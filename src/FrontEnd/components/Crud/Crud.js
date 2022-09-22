@@ -1,11 +1,11 @@
 import React from "react";
-import "./Crud.css";
+import CardataCreate from "./CardataCreate/CardataCreate";
 
 function Crud() {
-  return (
-    <div className="Crud">
-      <h1>Crud</h1>
-    </div>
+  return (       
+      <div>
+        <CardataCreate />
+      </div>
   );
 }
 

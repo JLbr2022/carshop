@@ -3,6 +3,8 @@ import "./Car.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ShoppingCar from "../../ShoppingCar/ShoppingCar";
 
+// import { motion } from "framer-motion";
+
 export default function Car({ car, index }) {
   // =========== FUNCTION TO FORMAT PRICE NUMBER ===========
   function formatNumber(number) {
