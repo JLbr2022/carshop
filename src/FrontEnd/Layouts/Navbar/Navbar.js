@@ -28,10 +28,6 @@ export default function NavbarMain() {
               Pesquisar
             </Nav.Link>
 
-            <Nav.Link as={Link} to="/Contact">
-              Contato
-            </Nav.Link>
-
             <Nav.Link as={Link} to="/Crud">
               Admin
             </Nav.Link>

@@ -70,6 +70,7 @@ export default function Footer() {
               <ul className="list-unstyled mb-0">
                 <li>
                   Rua João Negrão -849/850 CENTRO, CURITIBA-PR CEP: 80010200
+                  Telefone (41) 991188678
                 </li>
                 <li></li>
               </ul>
@@ -88,15 +89,7 @@ export default function Footer() {
                     PESQUISA
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="http://localhost:3000/Contact"
-                    className="text-white"
-                    //target=""
-                  >
-                    CONTATO
-                  </a>
-                </li>
+                
                 <li></li>
               </ul>
             </MDBCol>
