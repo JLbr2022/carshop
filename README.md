@@ -14,4 +14,4 @@ Instalación y ejecución:
 5. Abriremos 2 cónsolas de Windows:
 
 - En la primera ejecutaremos el comando npm run apiserver (inicia el servidor de la API)
-- En la segunda ejecutaremos el comando npm start (arranca la aplicación)
+- En la segunda ejecutaremos el comando npm start (arranca la aplicación)..
