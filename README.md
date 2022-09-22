@@ -9,7 +9,7 @@ Instalación y ejecución:
 3. Abrir una cónsola de windows en Windows o en el propio editor si tiene esta funcionalidad
 
 4. Instalar las siguientes dependencias:
-   npm install nodemon express moogose ract-router-dom boostrap mdb-react-ui-kit framer-motion
+   npm install nodemon express moongose ract-router-dom boostrap mdb-react-ui-kit framer-motion axios
 
 5. Abriremos 2 cónsolas de Windows:
 

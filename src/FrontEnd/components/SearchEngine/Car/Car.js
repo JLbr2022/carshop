@@ -2,6 +2,7 @@ import React from "react";
 import "./Car.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ShoppingCar from "../../ShoppingCar/ShoppingCar";
+import Button from "react-bootstrap/Button";
 
 // import { motion } from "framer-motion";
 
@@ -24,9 +25,13 @@ export default function Car({ car, index }) {
           <p className="card-text">Ano: {car.year}</p>
           <p className="card-text">Preço: {formatNumber(car.price)}</p>
           <div className="mb-2">
-            <button className="buyButton" onClick={() => <ShoppingCar />}>
+            <Button
+              className="buyButton"
+              onClick={() => <ShoppingCar />}
+              disabled
+            >
               Comprar
-            </button>
+            </Button>
           </div>
         </div>
       </div>

@@ -15,13 +15,6 @@ function Home() {
       animate={{ width: "100%" }}
       exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
     >
-      {/* <img
-        className="img-fluid"
-        src={require("../../images/logo.jpg")}
-        alt="logo"
-        width="30%"
-        height="30%"
-      /> */}
       <Carousel slide={true} className="Container">
         <Carousel.Item>
           <img
