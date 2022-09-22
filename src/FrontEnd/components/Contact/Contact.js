@@ -70,7 +70,7 @@ function Contact() {
             <Form.Label>UF</Form.Label>
             <Form.Control type="text" placeholder="UF" required />
             <Form.Control.Feedback type="invalid">
-                Forneça um estado válido
+                Forneça uma UF válido
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group as={Col} md="3" controlId="validationCustom05">
