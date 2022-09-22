@@ -38,7 +38,7 @@ function CardataList() {
     }   
     
     // Editando um registro
-    const handleEdit =  async (lista) => {
+    const onEdit =  async (lista) => {
         setEdit(lista);
         handleShow()
     }       
@@ -103,7 +103,7 @@ function CardataList() {
                                         <Button 
                                             className="form-buttom" 
                                             variant="outline-secondary" 
-                                            onClick={() => handleEdit(lista)}>
+                                            onClick={() => onEdit(lista)}>
                                             {<RiEditLine/>}
                                         </Button>                                                                     
                                         <Button 
