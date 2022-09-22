@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Car from "./Car/Car";
+import "./SearchEngine.css";
+import { motion } from "framer-motion";
 
 export default function SearchEngine() {
   const [stock, setStock] = useState([]);
@@ -31,7 +33,12 @@ export default function SearchEngine() {
   });
 
   return (
-    <div className="SearchEngine">
+    <motion.div
+      className="SearchEngine"
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+    >
       <section className="py-4 container">
         <div className="row justify-content-center">
           <div className="col-12 md-5">
@@ -54,6 +61,6 @@ export default function SearchEngine() {
           })}
         </div>
       </section>
-    </div>
+    </motion.div>
   );
 }

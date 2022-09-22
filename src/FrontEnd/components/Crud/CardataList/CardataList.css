@@ -1,0 +1,27 @@
+.reg-button {
+    margin-top: 12em;
+    margin-left: 11em;     
+}
+
+.title {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.table{
+    margin-top: 1em;
+}
+
+.table-col {
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+.form-buttom {
+    margin-right: 15px;   
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
